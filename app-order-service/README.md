@@ -1,4 +1,4 @@
-# app-fast-food
+# app-order-service
 
 ## Getting started
 
@@ -16,14 +16,14 @@ easy? [Use the template at the bottom](#editing-this-readme)!
 
 ```
 cd existing_repo
-git remote add origin https://gitlab.com/fast-food1/app-fast-food.git
+git remote add origin https://gitlab.com/fast-food1/app-order-service.git
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
-- [ ] [Set up project integrations](https://gitlab.com/fast-food1/app-fast-food/-/settings/integrations)
+- [ ] [Set up project integrations](https://gitlab.com/fast-food1/app-order-service/-/settings/integrations)
 
 ## Collaborate with your team
 

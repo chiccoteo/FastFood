@@ -1,0 +1,8 @@
+
+spring:
+  profiles:
+    active: dev
+server:
+  port: 8761
+application:
+  name: EUREKA-SERVER

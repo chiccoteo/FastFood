@@ -1,0 +1,10 @@
+spring:
+
+  application:
+    name: GATEWAY-SERVICE
+
+  profiles:
+    active: dev
+
+server:
+  port: 8080

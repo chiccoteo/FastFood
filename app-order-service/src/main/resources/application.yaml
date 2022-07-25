@@ -1,0 +1,10 @@
+spring:
+
+  application:
+    name: ORDER-SERVICE
+
+  profiles:
+    active: dev
+
+server:
+  port: 8083

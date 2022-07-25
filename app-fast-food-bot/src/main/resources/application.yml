@@ -1,0 +1,15 @@
+spring:
+
+  application:
+    name: BOT-SERVICE
+
+  profiles:
+    active: dev
+
+server:
+  port: 8088
+
+app:
+  telegram-bot:
+    token: 5414547306:AAFbtLdHX3ftiGKR2ZKJZWwI1yhhX7NojBU
+    url: https://60d1-178-218-201-90.ngrok.io/api/bot/v1/bot

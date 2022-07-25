@@ -1,0 +1,30 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/fast_food
+    password: root123
+    username: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  sql:
+    init:
+      mode: never
+  cache:
+    type: redis
+  redis:
+      host: localhost
+      port: 6379
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+  config:
+    import: "optional:configserver:http://localhost:8088"
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+

@@ -1,0 +1,10 @@
+spring:
+
+  application:
+    name: AUTH-SERVICE
+
+  profiles:
+    active: dev
+
+server:
+  port: 8081

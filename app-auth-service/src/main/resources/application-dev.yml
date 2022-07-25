@@ -1,0 +1,51 @@
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  servlet:
+    multipart:
+      max-file-size: 500MB
+      max-request-size: 500MB
+  datasource:
+    url: jdbc:postgresql://localhost:5432/fast_food
+    password: root123
+    username: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        enable_lazy_load_no_trans: true
+  sql:
+    init:
+      mode: never
+  main:
+    allow-circular-references: true
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+
+  instance:
+    hostname: localhost
+
+app:
+  jwt:
+    access-secret-key:   390r8yeifdbkjsdasdfdf309ruwfeiosdjakewpfoi390r8yeifdbkjsdasdfdff309ruwfeiosdjakewpfoi309ruwfeiosdjakewpfoif309ruwfeiosdjakewpfoi
+    refresh-secret-key:   SupperMupperSecretKeyAkngKucahydiUjeee1SupperMupperSecretKeyAkngKucahydiUjeee1f309ruwfeiosdjakewpfoif309ruwfeiosdjakewpfoi
+    access-token-life-time: 604_800_000
+    refresh-token-life-time: 2_592_000_000
+  max-sms-count: 10
+  max-sms-waiting-time: 120000
+  twilio:
+      account-sid: AC4ee1f4680be57030f8504c7553e2adc2
+      auth-token: 2eb76784ffa20ce2f22123c816c99917
+      phone-number: +19706505817

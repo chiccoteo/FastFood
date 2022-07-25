@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/fast_food
+    password: root123
+    username: postgres
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false

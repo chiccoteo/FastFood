@@ -1,0 +1,38 @@
+### CHECK PHONE NUMBER
+POST http://localhost:8080/api/auth/v1/auth/check-phone
+Content-Type: application/json
+
+{
+  "phoneNumber": "+998915776540"
+}
+
+### VERIFY PHONE NUMBER
+POST http://localhost:8080/api/auth/v1/auth/verify-phone
+Content-Type: application/json
+
+{
+  "phoneNumber": "+998915776540",
+  "verifyCode": "168152"
+}
+
+### SIGN UP
+POST http://localhost:8080/api/auth/v1/auth/register
+Content-Type: application/json
+
+{
+  "phoneNumber": "+998915776540",
+  "verifyCode": "168152",
+  "firstname":  "Muhammad",
+  "lastname": "",
+  "districtId":  "0f49d61e-ba3e-43f6-8716-604b8af4571d",
+  "language": "EN"
+}
+
+###LOGIN FOR ADMIN
+POST http://localhost:8080/api/auth/v1/auth/login
+Content-Type: application/json
+
+{
+  "phoneNumber": "+998993890927",
+  "password": "adminjon"
+}

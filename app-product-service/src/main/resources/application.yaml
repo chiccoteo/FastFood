@@ -1,0 +1,10 @@
+spring:
+
+  application:
+    name: PRODUCT-SERVICE
+
+  profiles:
+    active: dev
+
+server:
+  port: 8084

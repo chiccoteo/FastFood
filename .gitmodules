@@ -1,0 +1,27 @@
+[submodule "app-auth-service"]
+	path = app-auth-service
+	url = git@gitlab.com:fast-food1/app-auth-service.git
+[submodule "app-branch-service"]
+	path = app-branch-service
+	url = git@gitlab.com:fast-food1/app-branch-service.git
+[submodule "app-db-library"]
+	path = app-db-library
+	url = git@gitlab.com:fast-food1/app-db-library.git
+[submodule "app-gateway-service"]
+	path = app-gateway-service
+	url = git@gitlab.com:fast-food1/app-gateway-service.git
+[submodule "app-order-service"]
+	path = app-order-service
+	url = git@gitlab.com:fast-food1/app-order-service.git
+[submodule "app-product-service"]
+	path = app-product-service
+	url = git@gitlab.com:fast-food1/app-product-service.git
+[submodule "app-service-registry"]
+	path = app-service-registry
+	url = git@gitlab.com:fast-food1/app-service-registry.git
+[submodule "app-fast-food-bot"]
+	path = app-fast-food-bot
+	url = git@gitlab.com:fast-food1/app-fast-food-bot.git
+[submodule "app-config-server"]
+	path = app-config-server
+	url = git@gitlab.com:fast-food1/app-config-server.git

@@ -1,0 +1,10 @@
+spring:
+
+  application:
+    name: BRANCH-SERVICE
+
+  profiles:
+    active: dev
+
+server:
+  port: 8082
